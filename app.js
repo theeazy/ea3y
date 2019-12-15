@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 //Connect to DB
 mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true }, () => 
-console.log('connected to DB') 
+console.log('connected to DB (TEST)') 
 );
 
 // app.listen(process.env.PORT || 5000);
