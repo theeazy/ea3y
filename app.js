@@ -22,4 +22,8 @@ mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true }, () =>
 console.log('connected to DB') 
 );
 
-app.listen(process.env.PORT || 5000);
+// app.listen(process.env.PORT || 5000);
+
+app.listen(process.env.PORT || 3000, function(){
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
