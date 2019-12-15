@@ -4,7 +4,7 @@
   "description": "My first try to deploy my fkng app to heroku",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "ea3y",
   "license": "ISC",
@@ -21,6 +21,6 @@
     "ea3y"
   ],
   "engines": {
-    "node": "10.15"
+    "node": "10.15.0"
   }
 }
