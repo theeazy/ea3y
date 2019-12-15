@@ -14,12 +14,12 @@ app.use('/posts', postsRoute);
 
 //ROUTES
 app.get('/', (req, res) => {
-    res.send('We are on home');
+    res.send('Home page. Kak tebe takoe, Elon Musk?');
 });
 
 //Connect to DB
 mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true }, () => 
-console.log('connected to DB (TEST)') 
+console.log('connected to DB') 
 );
 
 // app.listen(process.env.PORT || 5000);
