@@ -2,7 +2,7 @@
   "name": "ea3y",
   "version": "1.0.0",
   "description": "My first try to deploy my fkng app to heroku",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
